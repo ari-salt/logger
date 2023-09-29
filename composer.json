@@ -1,0 +1,21 @@
+{
+    "name": "ari-salt/logger",
+    "description": "A logger for Laravel/Lumen apps.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {"AriSALT\\Logger\\": "src/Logger/"}
+    },
+    "require": {
+        "php": "^7.2",
+        "laravel/lumen-framework": "^6.0",
+        "monolog/monolog": "^1.12|^2.0"
+    },
+    "authors": [
+        {
+            "name": "ari-salt",
+            "email": "aristo.rinjuang@salt.co.id"
+        }
+    ],
+    "minimum-stability": "dev"
+}
