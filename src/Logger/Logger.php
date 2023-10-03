@@ -10,7 +10,7 @@ class Logger
 	public static function logging(
 		string $title,
 		string $filename,
-		mixed $message,
+		$message,
 		string $type = 'INFO'
 	) {
 		$logger = new MonologLogger($title);
